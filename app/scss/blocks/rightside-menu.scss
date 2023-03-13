@@ -1,0 +1,36 @@
+.rightside-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 694px;
+  background-color: #fff;
+  padding-top: 40px;
+  &__close {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-bottom: 60px;
+  }
+  &__content {
+    text-align: center;
+    min-width: 485px;
+    margin: 0 auto;
+  }
+  &__logo {
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+  &__title {
+    color: $title;
+    @extend%title-font;
+    font-size: 36px;
+    line-height: 51px;
+  }
+  &__text {
+    margin-bottom: 75px;
+  }
+}
