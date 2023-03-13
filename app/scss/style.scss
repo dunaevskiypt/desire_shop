@@ -1,7 +1,15 @@
-@import 'vars';
-@import 'fonts';
-@import 'reset';
-@import 'libs';
-@import 'global';
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+@import "./blocks/header.scss";
+@import "./blocks/footer.scss";
 
-
+/* Default Styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
