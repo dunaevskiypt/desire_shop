@@ -23,7 +23,7 @@
   }
   &__content {
     text-align: center;
-    min-width: 485px;
+    max-width: 485px;
     margin: 0 auto;
   }
   &__logo {
@@ -55,5 +55,6 @@
   }
   &__images {
     max-width: 485px;
+    margin: auto;
   }
 }
