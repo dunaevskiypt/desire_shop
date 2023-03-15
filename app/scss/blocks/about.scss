@@ -133,4 +133,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
   }
+  &__items-img {
+    margin: 0 auto;
+  }
 }
