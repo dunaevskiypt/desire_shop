@@ -35,7 +35,7 @@
     line-height: 135px;
     padding-bottom: 26px;
     margin-bottom: 26px;
-    @extend%title-font;
+    @extend %title-font;
     position: relative;
     &::after {
       content: "";

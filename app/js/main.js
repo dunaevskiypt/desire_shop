@@ -18,6 +18,12 @@ $(function () {
     dots: true,
     arrows: false,
   });
+  $(".article-slider__box").slick({
+    prevArrow:
+      '<a type="button" class="slick-prev"><img class="article-slider__arrow article-slider__arrowleft" src="./images/arrow-slide-left.svg" alt="slide-arrow"></a>',
+    nextArrow:
+      '<a  type="button" class="slick-next"><img class="article-slider__arrow article-slider__arrowright" src="./images/arrow-slide-right.svg" alt="slide-arrow"></a>',
+  });
   var mixer = mixitup(".gallery__inner", {
     load: {
       filter: ".living",
